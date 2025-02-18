@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Run this Command to create dummy log files
+# touch myApp{1..10}.log
+
 echo 'Navigate to the Folder'
 cd VimTut/
 
