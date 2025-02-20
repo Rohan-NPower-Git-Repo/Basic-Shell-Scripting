@@ -15,3 +15,5 @@ case $code in
     *)
         echo "Incorrect Airport Code";;
 esac
+
+# End with Case in Reverse as esac just like how we do it for if with fi
