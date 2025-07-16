@@ -1,17 +1,14 @@
 #!/bin/bash
 
-#echo 'Enter your Name: '
-#read uName 
+userName=$1
 
-#echo 'Enter your Age: '
-#read uAge 
+userAge=$2
 
-uName=$1
-uAge=$2
+echo 'User Name = ' $userName ' and Age = ' $userAge
 
-if [ $uAge -ge 18 ]
+if [ $userAge -ge 18 ]
 then
-	echo "$uName who is $uAge years old is eligible to vote"
+	echo 'User is eligible to Vote!'
 else
-	echo "$uName who is $uAge years old is NOT eligible to vote"
-fi
+	echo 'User is not eligible to Vote!'
+fi 
